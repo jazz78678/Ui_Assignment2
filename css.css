@@ -1,0 +1,84 @@
+.navigationBar a {
+  float: left;
+  padding: 14px 16px;
+  font-size: 16px;
+  color: white;
+   text-decoration: none;
+  text-align: center;
+  
+ 
+}
+
+
+.drpdwn {
+  overflow: hidden;
+  float: right;
+  
+}
+
+.navigationBar {
+  overflow: hidden;
+  background-color: Black;
+  font-family: Times New Roman;
+}
+
+
+
+
+
+
+.drpdwn .dropbtn {
+  font-size: 16px; 
+  padding: 14px 16px;
+  margin: 0;
+  border: none;
+  color: white;
+  outline: none;
+  font-family: inherit;
+  background-color: inherit;
+  
+}
+
+
+
+
+.drpdwn-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+}
+
+.drpdwn-content a {
+  float: none;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 12px 16px;
+  text-align: left;
+  
+  
+}
+ 
+
+
+.navigationBar a:hover, .drpdwn:hover .dropbtn {
+  background-color: blue;
+}
+
+
+.search{
+ position: absolute;
+}
+
+
+.drpdwn-content a:hover {
+  background-color: pink;
+}
+
+.drpdwn:hover .drpdwn-content {
+  display: block;
+}
+.search{
+align: center;
+}
